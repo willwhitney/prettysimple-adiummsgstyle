@@ -98,6 +98,8 @@ span.time {
 	/*font-family: 'Baskerville';*/
 	font-size: 15px;
 	color: rgba(255, 255, 255, 0.7);
+	font-family: Helvetica;
+	font-weight:lighter;
 }
 
 span.timeC, div.status span.time {
@@ -121,6 +123,8 @@ div.status img {
 
 span.sender {
 		font-size: 15px;
+		font-family: Helvetica;
+		font-weight:lighter;
 }
 
 div.message {
