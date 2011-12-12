@@ -40,7 +40,7 @@ a img {
 div {
 	-webkit-border-radius: 5px;
 	margin: 1px;
-	padding: 5px;
+	padding: 0px;
 	/*-webkit-box-shadow: 1px 1px 4px rgba(10, 10, 10, 0.7);*/
 	position: relative;
 }
@@ -51,7 +51,11 @@ span.time, span.timeC, span.sender, span.statusMsg {
 }
 
 span.statusMsg {
-	font-size: 15px;
+    font-size: 15px;
+}
+
+.statusMsg {
+    height: 3px;
 }
 
 div.incoming, div.outgoing, div.status {
@@ -106,7 +110,7 @@ span.timeC, div.status span.time {
 	display: block;
 	float: right;
 	padding-top: 6px;
-	margin-left: 10px;
+	margin-left: 5px;
 	font-size: 10px;
 	color: rgba(255, 255, 255, 0.5);
 	clear: both;
@@ -138,7 +142,7 @@ div.message {
 }
 
 div.consecutive {
-	margin-right: 34px;	
+	margin-right: 5px;	
 	margin-top:4px;
 }
 

@@ -1,6 +1,8 @@
 ::-webkit-scrollbar {
-    width: 17px;
+    width: 8px;
     height: 17px;
+    padding: 0px;
+    margin: 0px;
 }
 
 ::-webkit-scrollbar-corner {
@@ -61,7 +63,7 @@
 ::-webkit-scrollbar-thumb:vertical {
     -webkit-border-image: url(images/vertical-thumb.png) 10 0 10 0;
     border-color: transparent;
-    border-width: 10px 0px;
+    border-width: 0px 0px;
     min-height: 20px;
 }
 
@@ -115,13 +117,13 @@
 ::-webkit-scrollbar-track:vertical:disabled {
     -webkit-border-image: url(images/vertical-track.png) 10 0 10 0;
     border-color: transparent;
-    border-width: 10px 0;
+    border-width: 0px 0;
 }
 
 ::-webkit-scrollbar-track-piece:vertical:decrement {
     -webkit-border-image: url(images/vertical-track.png) 10 0 10 0;
     border-color: transparent;
-    border-width: 10px 0 0 0;
+    border-width: 0px 0 0 0;
 }
 
 ::-webkit-scrollbar-track-piece:vertical:decrement:hover {
@@ -135,7 +137,7 @@
 ::-webkit-scrollbar-track-piece:vertical:increment {
     -webkit-border-image: url(images/vertical-track.png) 10 0 10 0;
     border-color: transparent;
-    border-width: 0 0 10px 0;
+    border-width: 0 0 0px 0;
 }
 
 ::-webkit-scrollbar-track-piece:vertical:increment:hover {
